@@ -12,18 +12,6 @@ bootstrap:
 
   idp-cdf-mappings:
     # Support multiple CDF Projects, like dev/test/prod in one config.
-    - cdf-project: cdf-bootcamp-04-test
-      mappings:
-        - cdf-group: cdf:root
-          idp-source-id: 67e94449-5d06-4804-b6ab-8a655148c925
-          idp-source-name: bootcamp-04-test-admin
-        - cdf-group: cdf:all:owner
-          idp-source-id: 857cb75c-856b-4cfb-a7f6-8da2af8f5880
-          idp-source-name: bootcamp-04-test-all-owner
-        - cdf-group: cdf:all:read
-          idp-source-id: 69ca2bee-ca30-4725-a1da-41620f06ab7d
-          idp-source-name: bootcamp-04-test-all-read
-
     - cdf-project: cdf-bootcamp-04-prod
       mappings:
         - cdf-group: cdf:root
