@@ -15,7 +15,7 @@ bootstrap:
     - cdf-project: cdf-bootcamp-04-test
       mappings:
         - cdf-group: cdf:root
-          idp-source-id: 67e94449-5d06-4804-b6ab-8a655148c92
+          idp-source-id: 67e94449-5d06-4804-b6ab-8a655148c925
           idp-source-name: bootcamp-04-test-admin
         - cdf-group: cdf:all:owner
           idp-source-id: 857cb75c-856b-4cfb-a7f6-8da2af8f5880
